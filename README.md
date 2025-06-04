@@ -11,25 +11,8 @@ This project uses an older version of the fake news detection implementation, as
 ```
 ├── bert.ipynb                     # Jupyter notebook for BERT-based model
 ├── buzzfeed_news_with_filenames.csv # BuzzFeed news data with filenames
-├── Data/
-│   ├── BuzzFeed/
-│   │   ├── BuzzFeedNewsUser.txt       # User interactions with BuzzFeed news
-│   │   ├── BuzzFeedUserUser.txt       # User-to-user interaction data
-│   │   ├── FakeNewsContent/           # JSON files for fake news articles
-│   │   ├── RealNewsContent/           # JSON files for real news articles
-│   │   ├── News.txt                   # General news metadata
-│   │   ├── UserFeature.mat            # User features in MATLAB format
-│   │   └── User.txt                   # User information
-│   ├── PolitiFact/
-│   │   ├── PolitiFactNewsUser.txt     # User interactions with PolitiFact news
-│   │   ├── PolitiFactUserUser.txt     # User-to-user interaction data
-│   │   ├── FakeNewsContent/           # JSON files for fake news articles
-│   │   ├── RealNewsContent/           # JSON files for real news articles
-│   │   ├── News.txt                   # General news metadata
-│   │   ├── UserFeature.mat            # User features in MATLAB format
-│   │   └── User.txt                   # User information
-│   └── Readme.txt                     # Dataset documentation
 ├── politifact_news_with_filenames.csv # PolitiFact news data with filenames
+
 ├── prepare_dataset.py                 # Python script for preprocessing datasets
 ├── README.md                         # This file
 └── Roberta.ipynb                     # Jupyter notebook for RoBERTa-based model
